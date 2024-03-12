@@ -26,7 +26,7 @@ app.use(cookieParser())
 
 // connecting to database
 
-const url = 'mongodb+srv://amanoutlook2003:fN75Tbe9ictLYy7M@cluster0.p2b84gs.mongodb.net/'
+const url = 'mongodb+srv://*****************@cluster0.p2b84gs.mongodb.net/'
 
 const connect = async () => {
     try {
