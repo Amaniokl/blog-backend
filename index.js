@@ -19,7 +19,7 @@ const secret = 'asjldf923ljfs09slkdfwjskld9'
 const app = express()
 app.use('/uploads', express.static(__dirname + '/uploads'));
 
-app.use(cors({ credentials: true, origin: 'http://localhost:3000' }))
+app.use(cors({ credentials: true, origin: 'https://blog-frontend-pink-seven.vercel.app/' }))
 app.use(express.json())
 
 app.use(cookieParser())
